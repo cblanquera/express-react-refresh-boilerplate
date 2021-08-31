@@ -1,0 +1,38 @@
+{
+  "name": "express-react-refresh-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for Express 4, React 16, Webpack 5, Babel 7 with SSR and React Fast Refresh",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "build": "NODE_ENV=production webpack",
+    "dev": "nodemon --ext env,js,html --watch 'server/*' --exec node -- server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv-defaults": "^2.0.1",
+    "express": "^4.16.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-react": "^7.13.13",
+    "@babel/register": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "css-loader": "^6.2.0",
+    "nodemon": "^2.0.7",
+    "react-refresh": "^0.9.0",
+    "style-loader": "^3.2.1",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
